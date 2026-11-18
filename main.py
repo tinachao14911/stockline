@@ -113,7 +113,7 @@ def handle_message(event):
                 top_p=0.2,
                 thinking_config=thinking_config,
                 system_instruction=system_instruction,
-                tools=[{"google_search": {}}]  # <<-- 開啟 Google Search 實時連網搜尋
+                #tools=[{"google_search": {}}]  # <<-- 開啟 Google Search 實時連網搜尋
             )
 
             # --------------------------------------------------
